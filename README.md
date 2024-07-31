@@ -24,4 +24,12 @@
     - 데이터 가공: MSSQL, python
     - 모델링: scikit-learn, keras
 
-### 5. 분석결과
+
+### 5. 분석내용
+    
+    - kdca_heat_patients_eda.ipynb: data eda
+    - kdca_heat_patients_feature_select: feature selection 
+    - kdca_heat_patients_modeling_cnt: prediction
+    - kdca_heat_patients_modeling_yn: classification
+
+### 6. 분석결과
