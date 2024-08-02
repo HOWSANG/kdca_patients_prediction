@@ -31,6 +31,8 @@
     - kdca_heat_patients_feature_select: feature selection 
     - kdca_heat_patients_modeling_cnt: prediction
     - kdca_heat_patients_modeling_yn: classification
+    - kdca_heat_patients_modeling_sido
+    - kdca_heat_patients_imtermittent
 
 ### 6. 분석결과
 
@@ -38,3 +40,5 @@
 ### 7. 참고자료
 
     - Time Series Forecasting(TSF) Using Various Deep Learning Models
+    - Croston's Method
+    - DeepAR
