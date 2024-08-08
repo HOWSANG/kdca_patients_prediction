@@ -31,12 +31,16 @@
     - kdca_heat_patients_feature_select: feature selection 
     - kdca_heat_patients_modeling_cnt_01: LSTM/RNN/RandomForest/XGBoost prediction
     - kdca_heat_patients_modeling_cnt_02: feature selection with modeling
+    - kdca_heat_patients_modeling_cnt_03: time series sorting modeling(RandomForest, XGBoost)
+    - kdca_heat_patients_modeling_cnt_04: binning & clustering for modeling
+    - kdca_heat_patients_modeling_cls_05: binary classification & multivariate classification
     - kdca_heat_patients_modeling_yn: classification
     - kdca_heat_patients_modeling_sido: sido LSTM/RNN/RandomForest/XGBoost sido prediction
     - kdca_heat_patients_imtermittent: PoC analysis case
 
 ### 6. 분석결과
-
+    - Regressor: RandomForest, XGBoost
+    - Classifier
 
 ### 7. 참고
 
