@@ -7,6 +7,7 @@
 
     - 온열질환자 발생으로 인한 병원 응급시스템 관리 및 질환 예방
 
+
 ### 2. 프로세스
     
     - 데이터 수집/가공/정제
@@ -14,9 +15,11 @@
     - ML/DL을 이용한 예측/분류
     - 결과 분석
 
+
 ### 3. 데이터셋
 
     - 종관기상관측(ASOS) 데이터, 방재기상관측(AWS) 데이터, 위성(천리안2A) 데이터, 시도별 인구 데이터, 시도별 농업종사자 인구 데이터 
+
 
 ### 4. 분석환경
 
@@ -35,13 +38,18 @@
     - kdca_heat_patients_modeling_cnt_04: binning & clustering for modeling
     - kdca_heat_patients_modeling_cls_01: multivariate classification(max_ta_cluster)
     - kdca_heat_patients_modeling_cls_02: multivariate classification(max_wbtemp_cluster)
+    - kdca_heat_patients_modeling_cls_03: multivariate classification(max_tafeel_cluster)
+    - kdca_heat_patients_modeling_cls_04: multivariate classification(binning)
     - kdca_heat_patients_modeling_yn: classification
     - kdca_heat_patients_modeling_sido: sido LSTM/RNN/RandomForest/XGBoost sido prediction
     - kdca_heat_patients_imtermittent: PoC analysis case
 
+
 ### 6. 분석결과
+    
     - Regressor: RandomForest, XGBoost
     - Classifier
+
 
 ### 7. 참고
 
@@ -53,3 +61,5 @@
     - Feature Selection Method
     - Croston's Method
     - DeepAR
+
+    
