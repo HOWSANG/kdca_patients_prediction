@@ -35,7 +35,7 @@
     - kdca_heat_patients_modeling_cnt_01: LSTM/RNN/RandomForest/XGBoost prediction
     - kdca_heat_patients_modeling_cnt_02: feature selection with modeling
     - kdca_heat_patients_modeling_cnt_03: time series sorting modeling(RandomForest, XGBoost)
-    - kdca_heat_patients_modeling_cnt_04: binning & clustering for modeling
+    - kdca_heat_patients_modeling_cnt_04: binning & clustering for modeling (with k-means)
     - kdca_heat_patients_modeling_cls_01: multivariate classification(max_ta_cluster)
     - kdca_heat_patients_modeling_cls_02: multivariate classification(max_wbtemp_cluster)
     - kdca_heat_patients_modeling_cls_03: multivariate classification(max_tafeel_cluster)
